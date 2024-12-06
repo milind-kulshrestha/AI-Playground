@@ -43,8 +43,8 @@ A powerful and flexible chat interface for Ollama models with customizable roles
 ## Installation
 
 1. Create and activate a virtual environment:
-python -m venv llm_venv
-source llm_venv/bin/activate
+- python -m venv llm_venv
+- source llm_venv/bin/activate
 
 ###### On Windows: llm_venv\Scripts\activate
 
