@@ -44,9 +44,11 @@ A powerful and flexible chat interface for Ollama models with customizable roles
 
 1. Create and activate a virtual environment:
 python -m venv llm_venv
-source llm_venv/bin/activate  # On Windows: llm_venv\Scripts\activate
+source llm_venv/bin/activate
 
-2. Install required packages:
+# On Windows: llm_venv\Scripts\activate
+
+3. Install required packages:
 
 pip install streamlit ollama tiktoken
 
