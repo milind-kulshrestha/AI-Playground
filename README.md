@@ -46,7 +46,7 @@ A powerful and flexible chat interface for Ollama models with customizable roles
 python -m venv llm_venv
 source llm_venv/bin/activate
 
-# On Windows: llm_venv\Scripts\activate
+###### On Windows: llm_venv\Scripts\activate
 
 3. Install required packages:
 
