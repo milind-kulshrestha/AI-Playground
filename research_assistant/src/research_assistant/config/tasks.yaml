@@ -1,0 +1,140 @@
+research_task:
+  description: >
+    Conduct a thorough research about {topic}
+    Make sure you find any interesting and relevant information given
+    the current year is 2024.
+  expected_output: >
+    A list with 10 bullet points of the most relevant information about {topic}
+  agent: researcher
+
+reporting_task:
+  description: >
+    Review the context you got and expand each topic into a full section for a report.
+    Make sure the report is detailed and contains any and all relevant information.
+  expected_output: >
+    A fully fledge reports with the mains topics, each with a full section of information.
+    Formatted as markdown without '```'
+  agent: reporting_analyst
+
+macro_trends_research_task:
+  description: >
+    Conduct a comprehensive analysis of current macroeconomic indicators for 2024, focusing on inflation trends, treasury yield dynamics, and employment market conditions.
+    Investigate the interconnections between these key economic metrics and their potential implications for global financial markets.
+  expected_output: >
+    A list of 10 critical insights including:
+    - Current inflation rate trends across major economies
+    - Treasury yield curve analysis and potential economic signals
+    - Detailed employment market breakdown
+    - Comparative analysis of labor market conditions
+    - Impact of current monetary policies on economic indicators
+    - Potential economic risks and opportunities
+    - Sector-specific implications of current macro trends
+    - Global economic interconnectedness observations
+    - Predictive insights for the remainder of 2024
+    - Key divergences in economic performance across different regions
+  agent: macro_trends_analyst
+
+macro_trends_reporting_task:
+  description: >
+    Develop a comprehensive report that synthesizes the macroeconomic research findings into a cohesive, forward-looking narrative.
+    Provide in-depth analysis of current economic trends, potential future scenarios, and strategic implications for investors and policymakers.
+  expected_output: >
+    A detailed markdown-formatted report with the following sections:
+    # Macroeconomic Trends 2024: A Comprehensive Analysis
+
+    ## Executive Summary
+    - High-level overview of key economic findings
+    - Critical insights and potential impact
+
+    ## Inflation Dynamics
+    - Global inflation landscape
+    - Sector-specific inflationary pressures
+    - Central bank responses and monetary policy implications
+
+    ## Treasury Yields and Monetary Policy
+    - Yield curve analysis
+    - Interest rate trends
+    - Impact on different economic sectors
+
+    ## Employment Market Deep Dive
+    - Labor market conditions across major economies
+    - Emerging workforce trends
+    - Sectoral employment shifts
+
+    ## Economic Risk Assessment
+    - Potential economic challenges
+    - Geopolitical and economic risk factors
+    - Mitigation strategies
+
+    ## Forward-Looking Perspectives
+    - Predictive analysis for the remainder of 2024
+    - Potential economic scenarios
+    - Strategic recommendations
+
+    ## Conclusion
+    - Key takeaways
+    - Critical considerations for investors and policymakers
+  agent: reporting_analyst
+
+market_transition_research_task:
+  description: >
+    Identify and analyze emerging markets and countries positioned for significant economic transformation in 2024.
+    Investigate potential investment opportunities, structural reforms, and transformative economic dynamics.
+  expected_output: >
+    A list of 10 critical insights including:
+    - Top emerging markets with high transformation potential
+    - Key structural reforms driving economic changes
+    - Technological and innovation factors enabling market transitions
+    - Geopolitical influences on market transformations
+    - Demographic and social drivers of economic shift
+    - Sector-specific opportunities in transitioning markets
+    - Investment risk and potential assessment
+    - Comparative analysis of market transition indicators
+    - Emerging economic ecosystems and clusters
+    - Predictive insights for market evolution
+  agent: market_transition_analyst
+
+market_transition_reporting_task:
+  description: >
+    Develop a comprehensive report that provides a deep dive into market transition dynamics, offering strategic insights and comprehensive analysis.
+  expected_output: >
+    # Emerging Market Transformations: 2024 Strategic Insights
+
+    ## Executive Summary
+    - Overview of global market transition landscape
+    - Key transformation narratives
+
+    ## Emerging Market Ecosystem Analysis
+    - Detailed country-specific transformation profiles
+    - Structural reform impact assessment
+    - Economic ecosystem evolution
+
+    ## Technological and Innovation Drivers
+    - Technology's role in market transitions
+    - Innovation clusters and economic transformation
+    - Emerging technological ecosystems
+
+    ## Investment Landscape
+    - Opportunity mapping
+    - Risk assessment frameworks
+    - Strategic investment considerations
+
+    ## Geopolitical and Social Dynamics
+    - Geopolitical influences on market transitions
+    - Demographic and social transformation factors
+    - Cultural and economic interconnections
+
+    ## Sector-Specific Transformation Insights
+    - Detailed analysis of transitioning economic sectors
+    - Emerging industry opportunities
+    - Structural change indicators
+
+    ## Future Outlook
+    - Predictive scenarios for market evolution
+    - Long-term transformation trajectories
+    - Strategic recommendations
+
+    ## Conclusion
+    - Key strategic insights
+    - Critical considerations for global investors
+  agent: mreporting_analyst
