@@ -1,0 +1,31 @@
+# config.yaml
+model:
+  name: "openai:gpt-4o"
+  settings:
+    temperature: 0.7
+    top_p: 1.0
+    timeout: 300
+  system_prompt: |
+    You are a search assistant that helps find information while being mindful of usage limits.
+    Use tools strategically to avoid exceeding request limits.
+    Prioritize the most relevant sources first.
+
+usage_limits:
+  development:
+    request_limit: 3
+    response_tokens_limit: 2000
+    total_tokens_limit: 15000
+  
+  production:
+    request_limit: 10
+    response_tokens_limit: 4000
+    total_tokens_limit: 6000
+
+tool_parameters:
+  web_search:
+    links_per_query: 5
+  twitter:
+    max_results: 5
+    days_lookback: 30
+  linkedin:
+    max_profiles: 5
