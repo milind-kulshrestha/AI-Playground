@@ -1,6 +1,6 @@
 # AI Search Assistant (PydanticAI Example)
 
-A configurable multi-tool search assistant built with PydanticAI that integrates web search, LinkedIn profile lookup, and Twitter search capabilities. This project is part of the [AI-Playground](https://github.com/milind-kulshrestha/AI-Playground) repository, demonstrating practical applications of AI tools and frameworks.
+A configurable multi-tool search assistant built with PydanticAI that integrates web search, LinkedIn profile lookup, and Twitter search capabilities. 
 
 ## Features
 
